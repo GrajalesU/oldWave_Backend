@@ -14,7 +14,7 @@ const app = express();
 // settings
 app.set('port', config.port || 8080);
 
-// Middlewares
+// Middlewares probando cambios
 app.use(morgan('dev'));
 app.use(express.json());
 app.use(cors({ origin: '*' }));
